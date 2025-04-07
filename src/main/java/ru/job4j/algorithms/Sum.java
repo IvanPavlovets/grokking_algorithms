@@ -91,6 +91,7 @@ public class Sum {
 //        int[] array = {1, 54, -8, 0, 71, 12, 7, 6, 12, -3, 72};
 //        quickSort(array, 0, array.length-1);
 //        Arrays.stream(array).forEach(System.out::println);
+
         int[] array = {64, 42, 73, 41, 32, 53, 16, 24, 57, 42, 74, 55, 36};
         System.out.println(arrayToString(array));
         quickSort1(array, 0 ,array.length - 1);
